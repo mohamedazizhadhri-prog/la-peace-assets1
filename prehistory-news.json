@@ -1,6 +1,6 @@
 {
-  "_notes": "Fits the Stone Age Chronicle layout in prehistory-parchment-newspaper-plan.md. Each entry fills ONE main headline story (headline/subhead/body/closingLine/icon/image) for that page. The generic weather + berry-season filler in the small column is reused as-is across every page per the existing plan and is NOT in this file. imageUrl is a placeholder pointing at where the R2-hosted image will live once uploaded (see imageSlug) — swap R2_BASE_URL for your real bucket/custom-domain URL once R2 is set up.",
-  "R2_BASE_URL_PLACEHOLDER": "https://assets.YOUR-R2-DOMAIN.example.com",
+  "_notes": "Fits the Stone Age Chronicle layout in prehistory-parchment-newspaper-plan.md. Each entry fills ONE main headline story (headline/subhead/body/closingLine/icon/image) for that page. The generic weather + berry-season filler in the small column is reused as-is across every page per the existing plan and is NOT in this file. Images are hosted on GitHub (mohamedazizhadhri-prog/la-peace-assets1), served via jsDelivr's CDN — build each image URL at render time as ASSET_BASE_URL + '/prehistory/' + imageSlug + '.jpg'.",
+  "ASSET_BASE_URL": "https://cdn.jsdelivr.net/gh/mohamedazizhadhri-prog/la-peace-assets1@main",
   "entries": [
     {
       "id": "ph01",
